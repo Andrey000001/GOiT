@@ -8,92 +8,81 @@
     <title>Web Studio</title>
   </head>
   <body>
-    <!--Первая страница-->
-    <div class="main">
-        <!-- Первая часть -->
-        <div class="start">
-            <h3 class="name">WebStudio</h3>
-            <nav class="table">
-                <ul>
-                    <li>Студия</li>
-                    <li>Портфолі</li>
-                    <li>Контакти</li>
-                </ul>
-                <div>
-                    <a href="tel:+380961111111">+38 (096) 111 11 11</a>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </div>
-            </nav>
-        </div>
-
-
+    <!--Header-посиланя-->
+    <header>
+      <nav class="nav">
+        <ul>
+            <li><a href="WebStudio">WebStudio</a></li>
+            <li><a href="Студия">Студия</a></li>
+            <li><a href="Портфолі">Портфолі</a></li>
+            <li><a href="Контакти">Контакти</a></li>
+        </ul>
         <div>
-          <aside>
-              <div>
-                <div class="in_photo_1">
-                  <h1>Ефективні рішення для вашого бізнесу</h1>
-                  <button>Замовити послугу</button>
-                </div>
-                <img width="1200" height="300" src="./images/Bg.jpg" alt="Bad internet">
-              </div>
-          </aside>
+            <a href="tel:+380961111111">+38 (096) 111 11 11</a>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </div>
-        <!-- Детали -->
-        <div>
-          <h5>УВАГА ДО ДЕТАЛЕЙ</h5>
-          <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-          <h5>ПУНКТУАЛЬНІСТЬ</h5>
-          <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-          <h5>ПЛАНУВАННЯ</h5>
-          <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-          <h5>СУЧАСНІ ТЕХНОЛОГІЇ</h5>
-          <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-        </div>
-        
-        <!-- Чем занимаемся -->
-        <div>
-          <div>
-            <h2 class="job">Чим ми займаємося</h2>
-              <div>
-                <img src="images/images_1.png" alt="Bad internet">
-                <img src="images/images_2.png" alt="Bad internet">
-                <img src="images/images_3.png" alt="Bad internet">
-              </div>
+      </nav>
+    </header>
+          <div class="main">
+            <section>
+              <h1>Ефективні рішення для вашого бізнесу</h1>
+              <button type="button">Замовити послугу</button>
+            </section>
+            
+            <!-- Детали -->
+            <section class="choice">
+              <ul>
+                <li><h3>УВАГА ДО ДЕТАЛЕЙ</h3></li>
+                <li><p></p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</li>
+                <li><h3>ПУНКТУАЛЬНІСТЬ</h3></li>
+                <li><p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
+                <li><h3>ПЛАНУВАННЯ</h3></li>
+                <li><p>Так само консультація з широким активом значною мірою зумовлює.</p></li>
+                <li><h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3></li>
+                <li><p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
+              </ul>
+            </section>
+            
+            
+            <!-- Чем занимаемся -->
+            <section>
+              <ul>
+                <li><h3>Чим ми займаємося</h3></li>
+                <li><img width="370" src="images/images_1.png" alt="Компьютер"></li>
+                <li><img width="370" src="images/images_2.png" alt="Телефон"></li>
+                <li><img width="370" src="images/images_3.png" alt="Планшет"></li>
+              </ul>
+            </section>
+    
+    
+            <!-- Наша команда -->
+            <section class="team">
+              <ul>
+                <li><h3>Наша команда</h3></li>
+                <li><img width="270" src="images/images_1/Igor.png" alt="Ігор Дем'яненко"></li>
+                <li><h3>Ігор Дем'яненко</h3></li>
+                <li><p>Product Designer</p></li>
+                <li><img width="270" src="images/images_1/Olga_2.png" alt="Ольга Рєпіна"></li>
+                <li><h3>Ольга Рєпіна</h3></li>
+                <li><p>Frontend Developer</p></li>
+                <li><img width="270" src="images/images_1/Mikola_3.png" alt="Микола Тарасов"></li>
+                <li><h3>Микола Тарасов</h3></li>
+                <li><p>Marketing</p></li>
+                <li><img width="270" src="images/images_1/Mixaylo_4.png" alt="Михайло Єрмаков"></li>
+                <li><h3>Михайло Єрмаков</h3></li>
+                <li><p>UI Designer</p></li>
+              </ul>
+            </section>
           </div>
-        </div>
 
-        <!-- Наша команда -->
-        <div class="aaa">
-          <div>
-            <h2 class="job">Наша команда</h2>
-              <div>
-                <img width="300" src="images/images_1/Igor.png" alt="Bad internet">
-                <h5>Ігор Дем'яненко</h5>
-                <p>Product Designer</p>
-                <img width="300" src="images/images_1/Olga_2.png" alt="Bad internet">
-                <h5>Ольга Рєпіна</h5>
-                <p>Frontend Developer</p>
-                <img width="300" src="images/images_1/Mikola_3.png" alt="Bad internet">
-                <h5>Микола Тарасов</h5>
-                <p>Marketing</p>
-                <img width="300" src="images/images_1/Mixaylo_4.png" alt="Bad internet">
-                <h5>Михайло Єрмаков</h5>
-                <p>UI Designer</p>
-              </div> 
-          </div>
-        </div> 
+               
         <!-- футер(Дно) -->
-        <div>
-          <h3 class="name_1">WebStudio</h3>
           <footer>
+            <a href="WebStudio">WebStudio</a>
             <address>м. Київ, пр-т Лесі Українки, 26</address>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a href="tel:380961111111">+38 096 111 11 11</a>
-            <div>
-              <img width="1000" src="images/images_1/images_footer/Footer.png" alt="Bad internet">
-            </div>
           </footer>
-        </div>
     </div>
   </body>
 </html>
