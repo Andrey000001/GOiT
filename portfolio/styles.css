@@ -54,6 +54,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1em;
+    cursor: pointer;
 }
 /* ФОТКИ */
 .work {
@@ -65,8 +66,6 @@ body {
 }
 .text {
     font-family: roboto;
-
-    font-weight: 400;
     font-size: 16px;
     line-height: 1em;
     color: #757575;
