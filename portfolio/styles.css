@@ -1,30 +1,100 @@
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* color: #F5F5F5; */
+body {  
+    width: 1600px;
+    height: 1880px;
+    background: #FFF;
 }
+/* CAP */
 .cap {
     width: 1600px;
-    height: 600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFF;    
 }
-.choice>li>a:hover {
-    color: #2196F3;
+.list {
+    list-style: none;
 }
-
-.contact>a:hover {
-    color: #2196F3;
-}
-.button>ul>li>button:hover {
-    background-color: #2196F3;
-    cursor: pointer;
-}
-.name {
-    font-size: 26px;
+/* HEADER */
+.webstudio {
+    font-family: 'Raleway';
+    text-decoration: none;
     font-weight: 700;
-    line-height: 31px;
+    font-size: 26px;
+    line-height: 1.625em;
+    color: #2196F3;
 }
-.choice,
-.contact {
+.studio {
+    color: #000;
+}
+.studio_1 {
+    color: #FFF;
+}
+/* Работа */
+.job {
+    font-family: 'Roboto';
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0.875em;
+    color: #212121;
+    display: inline;
+}
+.job:hover {
+    color: #2196F3;
+}
+/* КНОПКИ */
+.buttt:hover {
+    background-color: #2196F3;
+    color: #FFF;
+}
+.buttt {
+    font-family: roboto;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1em;
+}
+/* ФОТКИ */
+.work {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #212121;
+}
+.text {
+    font-family: roboto;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1em;
+    color: #757575;
+}
+/* DNO */
+.dno {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background: #2F303A;
+}
+.street {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.8em;
+    color: #FFFFFF;
+}
+.contact_2 {
+    font-family: roboto;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact_2:hover {
+    color: #2196F3;
 }

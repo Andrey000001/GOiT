@@ -1,73 +1,149 @@
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* color: #F5F5F5; Вообщем ставлю цвет и много чего не видно ,не знаю удобно ли вам так*/
+body { 
+    width: 1600px;
+    height: 2346px;
+    background: #FFF;
 }
-.cap {
+/* header */
+.start {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFF;
+}
+.webstudio {
+    font-family: 'Raleway';
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.625em;
+    color: #2196F3;
+}
+.studio {
+    color: #000;
+}
+.studio_1 {
+    color: #FFF;
+}
+/* Работа */
+.job {
+    font-family: roboto;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.875em; 
+    color: #212121;
+}
+.job:hover {
+    color: #2196F3;
+}
+.list {
+    list-style: none;
+}
+/* ЭТО УЖЕ Контент */
+.window {
+    display: flex;
+    position: absolute;
     width: 1600px;
     height: 600px;
+    background: #2F303A;
+    margin-top: 100px;
 }
-.choice>li>a:hover {
-    color: #2196F3;
-}
-
-.contact>a:hover {
-    color: #2196F3;
-}
-.button>button:hover {
-    background-color: #2196F3;
-    cursor: pointer;
-}
-.button_size {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 30px;
-}
-.h3-p>ul>li>h3 {
-    line-height: 16.41px;
-    font-size: 14px;
-    font-weight: 700;
-}
-.h3-p>ul>li>h3>p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-}
-.texnica>h2,
-.team>h2 {
-    line-height: 42.19px;
-    font-size: 36px;
-    font-weight: 700;
-}
-.photo_270>li>h3 {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18.75px;
-}
-.photo_270>li>h3>p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18.75px;
-}
-.footer>a {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-
-.name {
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 31px;
-}
-.choice,
-.contact {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-}
-.button>h1 {
+.big_title {
+    font-family: roboto;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 2.75em;
+    color: #FFF;
+}
+.servis {
+    font-family: roboto;
+    width: 216px;
+    height: 50px;   
+    background: #2196F3;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1em;
+    color: #212121;
+}
+.servis:hover {
+    color: #FFF;
+}
+/* СКИЛЫ! */
+.punkt {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.875em;
+    color: #212121;
+}
+.text {
+    font-family: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.875em;
+    color: #757575;
+}
+
+/* Два названия */
+.sfera {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.25em;
+    color: #212121;
+}
+
+/* Наша команда */
+.our_team {
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1446px;
+    background: #F5F4FA;
+}
+.name {
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1em;
+    color: #212121;
+}
+.text_1 {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1em;
+    color: #757575;
+}
+
+/* DNO */
+.dno {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    background: #2F303A;
+}
+.dress {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.875em;
+    color: #FFFFFF;
+}
+.contact {
+    font-family: roboto;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.875empx;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact:hover {
+    color: #2196F3;
 }
