@@ -1,15 +1,10 @@
 body { 
-    width: 1600px;
-    height: 2346px;
     background: #FFF;
 }
+
+
 /* header */
 .start {
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
     background: #FFF;
 }
 .webstudio {
@@ -17,7 +12,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.625em;
+    line-height: 1.19;
     color: #2196F3;
 }
 .studio {
@@ -26,13 +21,16 @@ body {
 .studio_1 {
     color: #FFF;
 }
+
+
+
 /* Работа */
 .job {
     font-family: roboto;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.875em; 
+    line-height: 1.14; 
     color: #212121;
 }
 .job:hover {
@@ -44,9 +42,6 @@ body {
 /* ЭТО УЖЕ Контент */
 .window {
     display: flex;
-    position: absolute;
-    width: 1600px;
-    height: 600px;
     background: #2F303A;
     margin-top: 100px;
 }
@@ -54,7 +49,7 @@ body {
     font-family: roboto;
     font-weight: 900;
     font-size: 44px;
-    line-height: 2.75em;
+    line-height: 1.36;
     color: #FFF;
 }
 .servis {
@@ -65,8 +60,8 @@ body {
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1em;
-    color: #212121;
+    line-height: 1.875;
+    color: #FFF;
     cursor: pointer;
 }
 .servis:hover {
@@ -77,13 +72,13 @@ body {
     font-family: roboto;
     font-weight: 700;
     font-size: 14px;
-    line-height: 0.875em;
+    line-height: 1.14;
     color: #212121;
 }
 .text {
-    font-family: #757575;
+    font-family: roboto;
     font-size: 14px;
-    line-height: 0.875em;
+    line-height: 1.71;
     color: #757575;
 }
 
@@ -92,13 +87,12 @@ body {
     font-family: roboto;
     font-weight: 700;
     font-size: 36px;
-    line-height: 2.25em;
+    line-height: 1.16;
     color: #212121;
 }
 
 /* Наша команда */
 .our_team {
-    position: absolute;
     width: 1600px;
     height: 648px;
     left: 0px;
@@ -115,13 +109,12 @@ body {
 .text_1 {
     font-family: roboto;
     font-size: 16px;
-    line-height: 1em;
+    line-height: 1.187;
     color: #757575;
 }
 
 /* DNO */
 .dno {
-    position: absolute;
     width: 1600px;
     height: 252px;
     left: 0px;
@@ -132,7 +125,7 @@ body {
     font-family: roboto;
     font-weight: 400;
     font-size: 14px;
-    line-height: 0.875em;
+    line-height: 1.71;
     color: #FFFFFF;
 }
 .contact {
@@ -140,7 +133,7 @@ body {
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
-    line-height: 0.875empx;
+    line-height: 1.714;
     color: rgba(255, 255, 255, 0.6);
 }
 .contact:hover {

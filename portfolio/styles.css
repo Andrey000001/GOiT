@@ -1,14 +1,8 @@
 body {  
-    width: 1600px;
-    height: 1880px;
     background: #FFF;
 }
 /* CAP */
 .cap {
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
     background: #FFF;    
 }
 .list {
@@ -20,7 +14,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.625em;
+    line-height: 1.19;
     color: #2196F3;
 }
 .studio {
@@ -35,7 +29,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.875em;
+    line-height: 1.14;
     color: #212121;
     display: inline;
 }
@@ -53,7 +47,7 @@ body {
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1em;
+    line-height: 1.625;
     cursor: pointer;
 }
 /* ФОТКИ */
@@ -61,29 +55,24 @@ body {
     font-family: roboto;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.2em;
+    line-height: 2;
     color: #212121;
 }
 .text {
     font-family: roboto;
     font-size: 16px;
-    line-height: 1em;
+    line-height: 1.875;
     color: #757575;
 }
 /* DNO */
 .dno {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
     background: #2F303A;
 }
 .street {
     font-family: roboto;
     font-weight: 400;
     font-size: 14px;
-    line-height: 0.8em;
+    line-height: 1.714;
     color: #FFFFFF;
 }
 .contact_2 {
@@ -91,7 +80,7 @@ body {
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
-    line-height: 0.8em;
+    line-height: 1.714;
     color: rgba(255, 255, 255, 0.6);
 }
 .contact_2:hover {
