@@ -13,6 +13,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     color: #2196F3;
 }
 .studio {
@@ -31,10 +32,17 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14; 
+    letter-spacing: 0.02em;
     color: #212121;
 }
-.job:hover {
+.job:hover ,
+.contact_1:hover {
     color: #2196F3;
+}
+.contact_1 {
+    font-family: roboto;
+    letter-spacing: 0.02em;
+    color: #757575
 }
 .list {
     list-style: none;
@@ -50,6 +58,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     color: #FFF;
 }
 .servis {
@@ -61,8 +70,9 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    color: #FFF;
+    letter-spacing: 0.06em;
     cursor: pointer;
+    color: #FFF;
 }
 .servis:hover {
     color: #FFF;
@@ -73,12 +83,14 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 .text {
     font-family: roboto;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: #757575;
 }
 
@@ -88,52 +100,49 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 
 /* Наша команда */
 .our_team {
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1446px;
     background: #F5F4FA;
 }
 .name {
     font-family: roboto;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1em;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 .text_1 {
     font-family: roboto;
     font-size: 16px;
     line-height: 1.187;
+    letter-spacing: 0.03em;
     color: #757575;
 }
 
 /* DNO */
 .dno {
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2094px;
     background: #2F303A;
 }
 .dress {
     font-family: roboto;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .contact {
     font-family: roboto;
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .contact:hover {
