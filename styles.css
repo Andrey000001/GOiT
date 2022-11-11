@@ -40,9 +40,10 @@ body {
 }
 .contact {
     font-family: roboto;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575 ; 
 }
